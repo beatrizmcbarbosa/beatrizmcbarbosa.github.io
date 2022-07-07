@@ -1,0 +1,55 @@
+/*about me*/
+body {
+    background: #2C3639;
+    color: #DCD7C9;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 700;
+    font-size: 2cm;
+}
+
+.container {
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+
+.contact-page,
+.resume-page,
+.projects-page {
+    border: #0072b1;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+}
+
+.weather-app,
+.java-project,
+.another-project {
+    background-color: #f4f4f4;
+    width: 33%;
+    float: left;
+}
+
+.github {
+    color: #171515;
+    transition: color 0.2s;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.github,
+.linkedin:hover {
+    opacity: 0.9;
+}
+
+.linkedin {
+    color: #0072b1;
+    transition: color 0.2s;
+    font-size: 25px;
+    text-decoration: none;
+}
