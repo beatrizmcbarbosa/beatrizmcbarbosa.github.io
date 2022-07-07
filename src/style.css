@@ -18,13 +18,19 @@ h1 {
     box-sizing: border-box;
 }
 
-.contact-page,
-.resume-page,
-.projects-page {
-    border: #0072b1;
-    border-radius: 5px;
-    width: 250px;
-    height: 40px;
+button {
+    border: 1px solid #DCD7C9;
+    border-radius: 10px;
+    background-color: #3F4E4F;
+    color: #DCD7C9;
+    width: 150px;
+    height: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .weather-app,
