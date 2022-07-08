@@ -27,7 +27,7 @@ h1 {
     cursor: pointer;
 }
 
-.projects {
+container {
     border: 1px solid #fff;
     padding: 70px 40px;
     margin: 20px auto;
