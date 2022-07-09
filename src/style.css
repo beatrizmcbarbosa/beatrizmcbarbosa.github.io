@@ -28,13 +28,31 @@ h1 {
 }
 
 .weather-app-img,
-.tictactoe-img {
-    max-width: 100%;
+.tictactoe-img,
+.img :hover {
+    cursor: pointer;
 }
 
-.container {
-    margin: 40px auto;
-    position: static;
+.grid {
+    margin: 5em 10em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapper>.weather-app-img,
+.img-wrapper>.tictactoe-img,
+.img-wrapper>.img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
 }
 
 .github {
