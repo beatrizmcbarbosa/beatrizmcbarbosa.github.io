@@ -27,20 +27,14 @@ h1 {
     cursor: pointer;
 }
 
-.weather-app,
-.tictactoe {
-    border-radius: 50%;
-    padding: 10px 10px;
-    display: flex;
+.weather-app-img,
+.tictactoe-img {
+    max-width: 100%;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    left: 0;
     margin: 40px auto;
-    padding: 50px 50px;
-
+    position: static;
 }
 
 .github {
