@@ -9,7 +9,8 @@ h1 {
     font-family: 'Shadows Into Light', cursive;
     font-weight: 700;
     font-size: 2cm;
-    padding: 200px 100px;
+    padding: 150px;
+    margin-top: 100px;
 }
 
 .button {
@@ -29,8 +30,16 @@ h1 {
 
 .weather-app-img,
 .tictactoe-img,
+.img {
+    width: 350px;
+}
+
+.weather-app-img:hover,
+.tictactoe-img:hover,
 .img :hover {
     cursor: pointer;
+    filter: invert();
+    transition: 200ms ease;
 }
 
 .grid {
@@ -39,21 +48,6 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
-.img-wrapper {
-    position: relative;
-    overflow: hidden;
-}
-
-.img-wrapper>.weather-app-img,
-.img-wrapper>.tictactoe-img,
-.img-wrapper>.img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    object-position: center;
-    transition: 200ms ease-in-out;
-}
 
 .github {
     color: #171515;
