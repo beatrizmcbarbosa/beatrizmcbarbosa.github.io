@@ -5,7 +5,7 @@ let dateTime = document.querySelector("#date-time");
 let hour = now.getHours();
 let minute = now.getMinutes;
 if (minute<10){
-    minute='0${minute}';
+    minute=`0${minute}`;
 }
 let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 let day = days[now.getDay()];
@@ -24,4 +24,4 @@ let months = ["Jan",
 "Dec",];
 let month = months[now.getMonth];
 let year = now.getFullYear();
-dateTime.innerHTML = 'Last updated at ${hour}:${minute}, on ${day}, ${month} ${date}, ${year}'
+dateTime.innerHTML = `Last updated at ${hour}:${minute}, on ${day}, ${month} ${date}, ${year}`;
